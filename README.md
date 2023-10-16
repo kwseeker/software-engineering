@@ -14,17 +14,21 @@
 + 软件工程工具与方法（Software Engineering Tools and methods）
 + 软件质量（Software Quality）
 
+
+
 ## ...TODO...
+
+
 
 ## 软件质量（software-quality）
 
 ### 代码质量工具
 
-#### Checkstyle
+#### [Checkstyle](https://github.com/checkstyle/checkstyle)
 
-Checkstyle 是一种开发工具，可帮助程序员编写符合编码标准的 Java 代码。它使检查 Java 代码的过程自动化，从而使人类免于完成这项无聊（但重要）的任务。这使得它非常适合想要强制执行编码标准的项目。
+Checkstyle 是一个用于检查 Java 源代码是否遵守代码标准或验证规则集（最佳实践）的工具。
 
-Checkstyle 是高度可配置的，可以支持几乎任何编码标准。提供了一个示例配置文件，支持 Sun 代码约定、 Google Java 样式.
+默认情况下，它支持 Google Java 样式指南和 Sun 代码约定，但可高度配置。可以使用 ANT 任务和命令行程序来调用它。
 
-一些规范的开源项目源码都有提供 checkstyle.xml 用于协调团队代码质量控制。
+可以看到一些开源项目源码都有提供 `checkstyle.xml` 用于协调团队代码质量控制。
 
