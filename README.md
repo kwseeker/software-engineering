@@ -20,6 +20,16 @@
 
 
 
+## 软件设计（software-design）
+
+### 架构设计
+
+#### MVC
+
+#### DDD
+
+
+
 ## 软件质量（software-quality）
 
 ### 代码质量工具
